@@ -100,7 +100,7 @@ do
       . ./list.sh;;
     10)print3 "Print article list" "article"
       . ./list.sh;;
-    11)print4 "Delete author (books)" "Book name"
+    11)print4 "Delete author (books)" "Author name"
       unset books["$author_name"];;
     12)print4 "Delete author (articles)" "Author name"
       unset articles["$author_name"];;
